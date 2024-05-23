@@ -1,6 +1,6 @@
 public class Dayelseıf {
     public static void main(String[] args) {
-        int day=6;
+        int day=0;
         if (day==1) {
             System.out.println("pazartesi");}
             else if (day==2) {
@@ -9,13 +9,11 @@ public class Dayelseıf {
                     System.out.println("çarşamba");}
                     else if (day==4) {
                         System.out.println("perşembe");}
-                        else if (day==5) {
-                            System.out.println("cuma");}
-                            else if (day==6) {
-                                System.out.println("cumartesi");}
-                               else if (day==7) {
-                                    System.out.println("pazar");}
-        if (day <= 5) {
+                        else if (day==6) {
+                            System.out.println("cumartesi");}
+                           else if (day==7) {
+                                System.out.println("pazar");}
+        if (day <= 5 && day > 0) {
             System.out.println("hafta içi");
         } else if (day == 6 || day == 7) {
             System.out.println("hafta sonu");
@@ -24,11 +22,14 @@ public class Dayelseıf {
         }
 
 
-
-
-
     }
-    }
+        }
+
+
+
+
+
+
 
 
 
